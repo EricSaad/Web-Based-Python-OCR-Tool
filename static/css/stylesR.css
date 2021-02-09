@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+top: 0;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+background-color: lightseagreen;
+}
+
+.UPLOAD{
+  background-color: royalblue;
+}
+
+label {
+  display: block;
+  font: 1rem 'Fira Sans', sans-serif;
+  top: 10;
+}
+
+input {
+  margin-top: 25%;
+  
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 4s linear 1;
+  animation-fill-mode: forwards;
+
+}
+
+.tables {
+  animation: fadeIN 5s linear 1;
+  
+  width: 60%;
+  height: 30%;
+  animation-fill-mode: forwards;
+}
+
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(720deg); }
+
+  90% {opacity: 1;}
+  100% {opacity: 0;} 
+
+}
+
+
+@keyframes fadeIN {
+
+  0% {opacity: 0;}
+  80% {opacity: 0;}
+  100% {opacity: 1;} 
+
+}

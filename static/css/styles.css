@@ -1,0 +1,86 @@
+
+
+html, body {
+     margin: 0;
+    height: 100%; 
+    overflow-x: hidden;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: lightseagreen;
+}
+
+.HomeStyle {
+    background-color: royalblue;
+}
+
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+    top: 10;
+}
+
+input {
+    margin-top: 25%;
+    
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+}
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.centered {
+    pointer-events: none;
+    position: absolute;
+    z-index: 99;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeIN 3s linear 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeIN {
+
+    0% {opacity: 1;}
+    80% {opacity: 1;}
+    100% {opacity: 0;} 
+  
+  }

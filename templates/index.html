@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheapNshop</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/styles.css')}}">
+ 
+</head>
+<body>
+    <div class = "navbars">
+    <ul>
+        <li><a href="/" class = "HomeStyle">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li style="float:right"><a class="active" href="#about">About</a></li>
+        <li style="float:right; margin-right: 5%;"><a class="active" href="ReceiptPage">UPLOAD A RECEIPT</a></li>
+    </ul>
+    </div>
+ 
+    
+
+
+
+    <center>
+        
+        <img src="{{url_for('static', filename='pictures/shopj.png')}}"  alt="shoppic" style="width:25%;height: 25%;margin-top: 5%">
+     
+        <div class="input-group input-group-sm mb-3" style="width: 50%;margin-top: 1%;"> 
+            <div class="input-group-prepend">
+             
+            </div>
+         
+            <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
+        
+        </div>
+        <button type="button" class="btn btn-primary" style = "margin-top: 1%;"  >Search</button>
+        <br><br><br><br>
+
+
+        <div class="row">
+             
+            <div class="column">
+              <img class = "imgclass" src="{{url_for('static', filename='pictures/tech.png')}}" alt="tech" style="width:20%">
+            </div>
+            <div class="column">
+              <img class = "imgclass" src="{{url_for('static', filename='pictures/food.jpg')}}" alt="food" style="width:20%">
+            </div>
+            <div class="column">
+              <img class = "imgclass" src="{{url_for('static', filename='pictures/cloth.jpg')}}" alt="clothing" style="width:20%">
+            </div>
+          </div>
+         <br><br>
+    </center>
+  
+
+</body>
+</html>
