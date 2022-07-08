@@ -1,6 +1,6 @@
 # Web-Based Python OCR Tool
 
-**_ Mandatory Frameworks/Libraries : _**
+**Mandatory Frameworks/Libraries :**
 <sub>
   - Flask (A web framework)
   - Pytesseract  (An OCR tool for python)
