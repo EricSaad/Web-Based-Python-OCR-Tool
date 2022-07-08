@@ -1,9 +1,6 @@
 import os
 from flask import Flask, render_template, url_for,request,redirect
-#on importe le "microframework" flask pour pouvoir utiliser python sur une page web
 import pytesseract
-# On importe la librairie PyTesseract qui nous permetera de scanner des images et d'en tirer le texte
-
 import sqlite3
 
 
